@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:id="@+id/scrollView2"
+        android:padding="20dip" >
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="•  شنبه تا پنج شنبه  "
+                android:id="@+id/txtcontact_us2"
+                android:layout_gravity="center_horizontal|right"
+                android:gravity="right" />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="•  از ساعت 8 الی 20:00 "
+                android:id="@+id/txt_contact_us3"
+                android:layout_gravity="center_horizontal|right"
+                android:gravity="right" />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="•  جمعه ها از ساعت 9 الی 17 "
+                android:id="@+id/txt_contact_us4"
+                android:layout_gravity="center_horizontal|right"
+                android:gravity="right" />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="•  تلفن: 36517272 و 36518282 "
+                android:id="@+id/txt_contact_us5"
+                android:layout_gravity="center_horizontal|right"
+                android:gravity="right" />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="•  تلفن واحد رسیدگی به شکایات 36512492   "
+                android:id="@+id/txt_contact_us6"
+                android:layout_gravity="center_horizontal|right"
+                android:gravity="right" />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="•  نشانی: اصفهان، سپاهان شهر بلوار غدیر جنب مسجد صاحب الزمان مجتمع عقیق 5 واحد E7"
+                android:id="@+id/txt_contact_us7"
+                android:layout_gravity="center_horizontal|right"
+                android:gravity="right" />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:id="@+id/txt_contact_us1"
+                android:layout_gravity="center_horizontal|right"
+                android:gravity="right" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

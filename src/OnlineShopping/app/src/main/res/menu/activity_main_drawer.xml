@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    android:gravity="end"
+    android:layoutDirection="rtl"
+    android:layout_gravity="end">
+
+    <group android:checkableBehavior="single"
+        android:layout_gravity="end"
+        android:gravity="end">
+        <item
+            android:id="@+id/nav_gallery"
+            android:icon="@drawable/ic_menu_list"
+            android:title="لیست خرید"
+            android:gravity="end"
+
+            android:layout_gravity="end"/>
+
+    </group>
+
+    <item android:title="ارتباطات">
+        <menu
+            android:gravity="start"
+            android:layoutDirection="rtl"
+            android:layout_gravity="start">
+
+            <item
+                android:id="@+id/nav_contact_us"
+                android:icon="@drawable/ic_menu_contact_us"
+                android:title="تماس با ما"
+                android:gravity="end"
+                android:layout_gravity="end"/>
+            <item
+                android:id="@+id/nav_about_us"
+                android:icon="@drawable/ic_menu_about_us"
+                android:title="درباره ما"
+                android:gravity="end"
+                android:layout_gravity="end"/>
+        </menu>
+
+    </item>
+
+</menu>
